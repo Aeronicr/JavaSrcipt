@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <script>
+    var time = 234245645335;
+    var hours = parseInt(time/3600);
+    alert(hours);
+    console.log('Годин:',hours);
+    var minutes = parseInt(time/60);
+    alert(minutes)
+    console.log('Хвилин:',minutes)
+    seconds = time%3600;
+    alert(seconds)
+    console.log('Секунд:',seconds)
+
+  </script>
+</body>
+
+</html>
